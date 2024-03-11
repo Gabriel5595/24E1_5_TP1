@@ -98,14 +98,14 @@ Used to present the possible options to the user;
 Based on the options, a part of the will be initialized.
 
 #### Receives:
-* id returned by the function select_task
+* nothing
     
 #### Variables:
-* id
 * tasks
+* option
     
 #### Return:
-* Updated list of tasks
+* Nothing
 
 ## corrects_id (tasks)
 #### Function:

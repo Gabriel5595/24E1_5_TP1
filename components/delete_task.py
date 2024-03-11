@@ -11,3 +11,18 @@ def delete_task(tasks):
         return updated_tasks
     else:
         print("No task could found with the entered ID.")
+
+"""
+Function:
+Used to delete a task
+
+Receives:
+* id returned by the function select_task
+    
+Variables:
+* id
+* tasks
+    
+Return:
+* Updated list of tasks
+"""

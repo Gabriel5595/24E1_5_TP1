@@ -12,3 +12,22 @@ def create_task(tasks):
     new_task = [id, description, creationDate, status, deadline, urgency]
     
     return new_task
+
+"""
+Function:
+Used to create a new task.
+
+Receives:
+* tasks
+
+Variables:
+* id
+* description
+* creationDate
+* status
+* deadline
+* urgency
+
+Returns:
+* List named "new_task"
+"""

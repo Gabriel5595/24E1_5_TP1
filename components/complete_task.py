@@ -10,3 +10,18 @@ def complete_task(tasks):
         return tasks
     else:
         print("No task could found with the entered ID.")
+
+"""
+Function:
+change the status of a task
+
+Receives:
+* id returned by the function select_task
+
+Variables:
+* id
+* tasks
+
+Return:
+* Updated list of tasks
+"""

@@ -5,3 +5,17 @@ def show_tasks(tasks):
     table = tabulate(tasks, headers=tasks_header, tablefmt="grid")
     print("\n")
     print(table)
+
+"""
+Function:
+Used to show all tasks
+
+Receives:
+* list of tasks
+
+Variables:
+* tasks
+
+Return:
+* Nothing
+"""

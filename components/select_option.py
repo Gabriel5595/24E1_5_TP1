@@ -35,3 +35,19 @@ def select_option():
             
         except ValueError:
             ("Option not valid. Please enter a number correspondent to a valid option.")
+
+"""
+Function:
+Used to present the possible options to the user;
+Based on the options, a part of the will be initialized.
+
+Receives:
+* nothing
+    
+Variables:
+* tasks
+* option
+    
+Return:
+* Nothing
+"""
